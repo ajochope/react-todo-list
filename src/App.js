@@ -6,10 +6,12 @@ import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <div className="row">
-        <TodoList></TodoList>
-        <TodoInput></TodoInput>
+    <div>
+      <div className="container">
+        <div className="row">
+          <TodoList></TodoList>
+          <TodoInput></TodoInput>
+        </div>
       </div>
     </div>
   );
